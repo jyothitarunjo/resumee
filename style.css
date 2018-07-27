@@ -1,0 +1,13 @@
+.main{
+width:100;
+background-color:#c12e12;
+display: flex; 
+}
+.right{
+	width:35;
+	border:5px solid red;
+}     
+.left{
+	width:65;
+	border:5px solid skyblue;
+}
