@@ -1,13 +1,35 @@
 .main{
 width:100;
-background-color:#c12e12;
+background-color:#c65e65;
 display: flex; 
+justify-content: center;
+text-align: center;
 }
 .right{
 	width:35;
 	border:5px solid red;
+	box-shadow: 5px 5px 5px black;
+	margin: 1%
+	padding: 1%;
+	background-color:lightyellow;
 }     
 .left{
 	width:65;
 	border:5px solid skyblue;
+	background-color: pink;
 }
+h1,
+h2{
+	font-size: 45px
+}
+@media only screen and  (min-width: 320px) and (min-height: 480px){
+	.main{
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.left{
+
+	}
+}
+     
+
